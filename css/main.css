@@ -137,7 +137,7 @@ body {
 .link-list {
   opacity: 0.85;
   display: flex;
-  width: 66px;
+  width: 120px;
   justify-content: space-around;
   list-style: none;
 }
