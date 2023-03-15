@@ -129,15 +129,15 @@ body {
   will-change: transform;
 }
 
+.link-div {
+  position: absolute;
+  bottom: calc(var(--index) * 3.8);
+}
+
 .link-list {
   opacity: 0.85;
   display: flex;
   width: 66px;
   justify-content: space-around;
   list-style: none;
-}
-
-.link-div {
-  position: absolute;
-  bottom: calc(var(--index) * 3.8);
 }
