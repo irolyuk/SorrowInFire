@@ -128,3 +128,13 @@ body {
 .content {
   will-change: transform;
 }
+.link-list {
+  position: absolute;
+  bottom: calc(var(--index) * 3.8);
+  left: 47.5%;
+  opacity: 0.45;
+  display: flex;
+  width: 66px;
+  justify-content: space-around;
+  list-style: none;
+}
